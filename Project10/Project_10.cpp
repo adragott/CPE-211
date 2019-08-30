@@ -97,6 +97,7 @@ int main(int argc, char** argv)
 
 	int readMode = 0;
 	inputStream >> readMode;
+	cout << "Read mode: " << readMode << endl;
 	bool bExit = false;
 	do
 	{
